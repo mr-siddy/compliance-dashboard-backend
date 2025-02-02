@@ -1,0 +1,40 @@
+# Ignore build artifacts
+bin/
+obj/
+*.exe
+*.dll
+*.pdb
+*.log
+
+# Ignore user-specific files
+.vscode/
+.idea/
+*.suo
+*.user
+*.cache
+*.ncb
+*.sdf
+*.dbmdl
+
+# Ignore temporary files
+*.tmp
+*.bak
+*.swp
+*.swo
+*.DS_Store
+Thumbs.db
+
+# Ignore secrets and environment files
+.env
+appsettings.*.json
+secrets.json
+
+# Ignore dependency folders (if not using NuGet restore)
+packages/
+node_modules/
+
+# Ignore JetBrains Rider project files
+*.DotSettings.user
+
+# Ignore ReSharper files
+_ReSharper*/
